@@ -1,7 +1,7 @@
 ---
-title: Display Jupyter Notebooks with Academic
-subtitle: Learn how to blog in Academic using Jupyter notebooks
-summary: Learn how to blog in Academic using Jupyter notebooks
+title: Непрерывная интеграция и непрерывное развертывание (CI/CD)
+subtitle: Узнайте разницу между этими непрерывными методами
+summary: В чем разница между непрерывной интеграцией, непрерывной поставкой и непрерывным развертыванием (CI/CD)? 
 authors:
   - admin
 tags: []
@@ -14,64 +14,29 @@ image:
   focal_point: ''
 ---
 
-```python
-from IPython.core.display import Image
-Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png')
-```
 
-![png](./index_1_0.png)
+## Непрерывная интеграция 
 
-```python
-print("Welcome to Academic!")
-```
+Разработчики, применяющие непрерывную интеграцию, при каждой возможности выполняют слияние своих изменений с основной веткой. Изменения, внесенные разработчиком, проверяются путем создания сборки и запуска автоматических тестов на этой сборке. С таким подходом вы избегаете сложностей при интеграции, когда нужно ждать дня релиза, чтобы выполнить слияние изменений в соответствующей ветке.
 
-    Welcome to Academic!
+При использовании непрерывной интеграции уделяется большое внимание автоматизации тестирования, в результате которого при интеграции новых коммитов в основную ветку работа приложения не нарушается.
 
-## Install Python and JupyterLab
+## Непрерывная поставка
 
-[Install Anaconda](https://www.anaconda.com/distribution/#download-section) which includes Python 3 and JupyterLab.
+Непрерывная поставка является продолжением непрерывной интеграции, поскольку при ней происходит автоматическое развертывание всех изменений кода в тестовой и (или) рабочей среде после этапа сборки.
 
-Alternatively, install JupyterLab with `pip3 install jupyterlab`.
+Это значит, что автоматизирован не только процесс тестирования, но и процесс выпуска продукта, поэтому приложение можно развернуть в любое время одним нажатием.
 
-## Create or upload a Jupyter notebook
+Теоретически при непрерывной поставке вы можете выпускать релизы ежедневно, еженедельно, каждые две недели или с любой другой периодичностью, актуальной для бизнеса. Однако если вы действительно хотите получить преимущества от непрерывной поставки, следует выполнять развертывание в рабочей среде как можно раньше, обеспечивая выпуск небольших пакетов изменений, в которых легко найти ошибку в случае проблем.
 
-Run the following commands in your Terminal, substituting `<MY-WEBSITE-FOLDER>` and `<SHORT-POST-TITLE>` with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:
+##  Непрерывное развертывание 
 
-```bash
-mkdir -p <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
-cd <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
-jupyter lab index.ipynb
-```
+Непрерывное развертывание идет на один шаг дальше, чем непрерывная поставка. При этом подходе каждое изменение, которое проходит все стадии производственного конвейера, выпускается для клиентов. Вмешательство человека не требуется, и развертыванию нового изменения в рабочую среду может помешать только ошибка во время теста.
 
-The `jupyter` command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.
+Непрерывное развертывание — это отличный способ ускорить цикл обратной связи с клиентами и избавить команду от лишнего напряжения, отменив «день релиза». Разработчики могут сосредоточиться на создании ПО. Они видят, как их код запускается в работу за считанные минуты, стоит только закончить.
 
-## Edit your post metadata
-
-The first cell of your Jupter notebook will contain your post metadata ([front matter](https://sourcethemes.com/academic/docs/front-matter/)).
-
-In Jupter, choose _Markdown_ as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:
-
-```
----
-title: My post's title
-date: 2019-09-01
-
-# Put any other Academic metadata here...
----
-```
-
-Edit the metadata of your post, using the [documentation](https://sourcethemes.com/academic/docs/managing-content) as a guide to the available options.
-
-To set a [featured image](https://sourcethemes.com/academic/docs/managing-content/#featured-image), place an image named `featured` into your post's folder.
-
-For other tips, such as using math, see the guide on [writing content with Academic](https://wowchemy.com/docs/content/writing-markdown-latex/).
-
-## Convert notebook to Markdown
-
-```bash
-jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
-```
-
-## Example
+## Как эти подходы взаимосвязаны друг с другом 
+Проще говоря, непрерывная интеграция является частью как непрерывной поставки, так и непрерывного развертывания. А непрерывное развертывание похоже на непрерывную поставку, за исключением того, что релизы выполняются автоматически.
+Непрерывное развертывание 
 
 This post was created with Jupyter. The orginal files can be found at https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter

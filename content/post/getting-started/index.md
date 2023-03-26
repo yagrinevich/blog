@@ -1,6 +1,5 @@
 ---
-title: Welcome to Wowchemy, the website builder for Hugo
-subtitle: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+title: А сейчас я расскажу вам о событиях, прошедшей на этой неделе.
 
 # Summary for listings and search engines
 summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
@@ -41,28 +40,26 @@ categories:
   - 教程
 ---
 
-```python
-import libr
-print('hello')
-```
 
-## Overview
+## Пост о прошедшей неделе
 
-1. The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
-
+1. В понедельник я была на главной репетиции в интерклубе, где мы готовились к предстоящему концерту. Также весь день до этого я изучала матанализ и посетила занятие по английскому языку.
+2. Во вторник я работала в кофейне, где недавно у нас стартовало новое осенне промо, по которому необходимо было сдать мини-экзамен. 
+3. В среду я наконец-то посетила университет, где увидела своих любимых одногруппников, принимала активное участие в семинарах по матанализу и матлогике, по по окончании пар поехала на работу, где провела весь остаток дня. 
+4. В четверг я наконец-то дописала программу, над которой работала несколько дней, а также рассказала презентацию по истории на тему "Причины поражения декабристов"
+5. В пятницу день начался с собрания с тьютором по учебной работе и закончился тремя парами по английскому языку.
 [![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png)](https://wowchemy.com)
 
-## Get Started
+## Начать
 
-- 👉 [**Create a new site**](https://wowchemy.com/templates/)
-- 📚 [**Personalize your site**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Tutorial](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://wowchemy.com/updates/)
+- 👉 [**Создать новый сайт**](https://wowchemy.com/templates/)
+- 📚 [**Настройте свой сайт**](https://wowchemy.com/docs/)
+- 💬 [Общайтесь с **сообществом Wowchemy**](https://discord.gg/z8wNYzb) или [**сообществом Hugo**](https://discourse.gohugo.io)
+- 🐦 Твиттер: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q =%23MadeWithWowchemy&src=typed_query)
+- 💡 [Запросите **функцию** или сообщите об **ошибке** для _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
+- ⬆️ **Обновление Wowchemy?** Просмотрите [Учебник по обновлению](https://wowchemy.com/docs/hugo-tutorials/update/) и [Примечания к выпуску](https://wowchemy.com/updates/)
 
+## Nachat'
 ## Crowd-funded open-source software
 
 To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
