@@ -15,23 +15,23 @@ sections:
       text:
   - block: features
     content:
-      title: Skills
-      items:
-        - name: R
-          description: 90%
+      title: Умения
+      items: 
+        - name: J
+          description: 100%
           icon: r-project
           icon_pack: fab
-        - name: Statistics
+        - name: Статистика
           description: 100%
           icon: chart-line
           icon_pack: fas
-        - name: Photography
+        - name: Фотографии
           description: 10%
           icon: camera-retro
           icon_pack: fas
   - block: experience
     content:
-      title: Experience
+      title: Опыт
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -41,27 +41,27 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Job
+          company: StarsCoffee
           company_url: ''
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: Москва
+          date_start: '2022-12-24'
           date_end: ''
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              * Learnability
+              * Data analysis
+              * Programming
+        - title: Student business of informatics
+          company: РУДН им. Лумумбы
           company_url: ''
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Москва
+          date_start: '2022-09-01'
+          date_end: '2026-06-01'
+          description: Student of the Department of ACS&PT
     design:
       columns: '2'
   - block: accomplishments
