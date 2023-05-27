@@ -1,11 +1,11 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: 
 date: 2022-10-24
 type: landing
 
 sections:
-
+  
   - block: about.avatar
     id: about
     content:
@@ -15,102 +15,94 @@ sections:
       text:
   - block: features
     content:
-    title: Skills
+      title: Skills
+      
       items:
-        - name: J
+        - name: AI
           description: 100%
-          icon: r-project
-          icon_pack: fab
-        -name: Statistics
+          icon: ":robot:"
+          icon_pack: emoji
+        - name: Statistic
           description: 100%
-          icon: chart line
-          icon_pack: face
-        - name: Photos
-          description: 10%
-          icon: camera-retro
-          icon_pack: face
-  -block:experience
+          icon: ":chart:"
+          icon_pack: emoji
+        - name: Photo
+          description: 100%
+          icon: ":camera:"
+          icon_pack: emoji
+  - block: experience
     content:
-      title: Опыт
+      title: Experience
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
+      date_format: February 2023
       # Experiences.
       #   Add/remove as many `experience` items below as you like.
       #   Required fields are `title`, `company`, and `date_start`.
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Job
-          company: StarsCoffee
+        - title: School
+          company: 53
           company_url: ''
           company_logo: org-gc
-          location: Москва
-          date_start: '2022-12-24'
-          date_end: ''
+          location: Moscow
+          date_start: '2018-01-01'
+          date_end: '2021-01-01'
           description: |2-
-              Responsibilities include:
+              School Olimpiad:
 
-              * Learnability
-              * Data analysis
-              * Programming
-        - title: Student business of informatics
-          company: РУДН им. Лумумбы
+              * First place on Computer science
+        - title: First year student
+          company: RUDN
           company_url: ''
           company_logo: org-x
-          location: Москва
+          location: Moscow
           date_start: '2022-09-01'
-          date_end: '2026-06-01'
-          description: Student of the Department of ACS&PT
+          date_end: '2024-12-31'
+          description: First year studemt.
     design:
       columns: '2'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: 'Accomplishments'
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
-      # Accomplishments.
+      # Achievements.
       #   Add/remove as many `item` blocks below as you like.
       #   `title`, `organization`, and `date_start` are the required parameters.
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: http://browser-doom.io/?page=game&game=doom&profile=Doom%20(Shareware)
           date_end: ''
           date_start: '2021-01-25'
           description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          organization: Developer
+          organization_url: https://github.com/NEGODAY7484
+          title: Game Dev Doom engine
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url: http://slither.io/
           date_end: ''
           date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
           description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+          organization: Developer
+          organization_url: https://github.com/NEGODAY7484
+          title: make ai for worms.
+          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+     
     design:
       columns: '2'
   - block: collection
     id: posts
     content:
-      title: Recent Posts
+      title: Last posts
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
-      count: 10
+      count: 11
       # Filter on criteria
       filters:
         folders:
@@ -218,8 +210,8 @@ sections:
       appointment_url: 'https://calendly.com'
       address:
         street: 450 Serra Mall
-        city: Stanford
-        region: CA
+        city: Moscow
+        region: MS
         postcode: '94305'
         country: United States
         country_code: US
@@ -228,14 +220,14 @@ sections:
         - 'Monday 10:00 to 13:00'
         - 'Wednesday 09:00 to 10:00'
       contact_links:
-        - icon: twitter
+        - icon: telegram
           icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
+          name: telegram
+          link: 'https://t.me/NEMESIS_1O1'
+        - icon: youtube
           icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
+          name: Youtube
+          link: 'https://youtube.com/@user-xw9pt4lb6d'
         - icon: video
           icon_pack: fas
           name: Zoom Me
