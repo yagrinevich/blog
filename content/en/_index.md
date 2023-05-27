@@ -15,21 +15,21 @@ sections:
       text:
   - block: features
     content:
-      title: Умения
-      items: 
+    title: Skills
+      items:
         - name: J
           description: 100%
           icon: r-project
           icon_pack: fab
-        - name: Статистика
+        -name: Statistics
           description: 100%
-          icon: chart-line
-          icon_pack: fas
-        - name: Фотографии
+          icon: chart line
+          icon_pack: face
+        - name: Photos
           description: 10%
           icon: camera-retro
-          icon_pack: fas
-  - block: experience
+          icon_pack: face
+  -block:experience
     content:
       title: Опыт
       # Date format for experience
@@ -110,7 +110,7 @@ sections:
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
-      count: 5
+      count: 10
       # Filter on criteria
       filters:
         folders:

@@ -35,19 +35,14 @@ tags:
   - Academic
   - 开源
 
-
+categories:
   - Demo
   - 教程
 ---
 
 
 ## Пост о прошедшей неделе
-
-1. В понедельник я усиленно занималась английским, а так же готовилась к межвузовскуму конкурсу танцев.
-2. Во вторник я работала в кофейне на Арбате, в центре Москвы.
-3. В среду я наконец-то посетила университет, где написала контрольные работы-матанализ и матлогика. 
-4. В четверг я посетила невероятно интересную пару по программированию.
-5. В пятницу я наконец-то написала входное тестирование по Python и была допущена к компьютерному практикуму.
+This week I had a lot of tests, an exam for which I was preparing hard, as well as a school of curators, where, of course, I really liked it. 
 [![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png)](https://wowchemy.com)
 
 ## Начать
